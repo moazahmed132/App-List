@@ -18,5 +18,59 @@ body{
   width: 70%;
   height: 80%;
   border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.description{
+  text-align: center;
+  margin-top: 20px;
+}
+.title{
+margin-bottom: 15px;
+font-size: 24px;
+}
+.title-p{
+font-weight: 16px;
+}
+.apps-list{
+  width: 90%;
+  height: 70%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-content: space-around;
+
+}
+.app{
+display: flex;
+justify-content: space-evenly;
+}
+.app-img{
+border-radius: 50%;
+background-color: #F0F2FB;
+}
+.app-info{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+width: 60%;
+}
+.app-name{
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+}
+.app-description{
+  font-weight: 16;
+  line-height: 25px;
+}
+.name-ver{
+  display: flex;
+  margin-right: 10px;
+}
+
+.app-description{
 
 }
