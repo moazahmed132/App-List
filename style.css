@@ -51,6 +51,12 @@ justify-content: space-evenly;
 border-radius: 50%;
 background-color: #F0F2FB;
 }
+
+.deepScan-img{
+  padding: 30px; background-color: #1246B8;
+
+}
+
 .app-info{
 display: flex;
 flex-direction: column;
@@ -71,6 +77,3 @@ width: 60%;
   margin-right: 10px;
 }
 
-.app-description{
-
-}
