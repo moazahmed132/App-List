@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #10182F;
+  font-family: Muli-Bold, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container{
+  background-color: #FFFFFF;
+  width: 70%;
+  height: 80%;
+  border-radius: 7px;
+
+}
